@@ -1,21 +1,21 @@
 # Data_collect_and_structuration
-Acquisition et structureation de données
+Acquistion, agrégation et structuration de données
 
 Le but de cet exercice est de construire un conteneur de données qui contiendra des data sets concernant les 1000 films les mieux notés selon IMDB de 2000 à maintentant.
+L'exo est sous forme questiosn auxquelles il faut répondre dans un notebook
 
-Question 1 
+#Question 1 
+
 Extraction de données
 Commencez par extraire les données dont vous aurez besoin pour répondre à la question posée. Vous pourrez combiner différentes méthodes pour extraires toutes les sources dont vous aurez besoin, comme par exemple:
 
 télécharger des data sets accessibles en Open Data à partir de kaggle
 scraper la page des 250 films les mieux notés d'IMDB
 utiliser des API(s) existantes pour récupérer des informations manquantes
-Réponse 1
+
 Affichez dans les cellules ci-dessous les structures de données dans lesquelles vous avez récupéré les informations pertinentes et donnez quelques caractéristiques de chacun de ce(s) data set(s) (par exemple taille, valeurs uniques, min , max ...)
 
-[ ]
-
-Question 2 
+#Question 2 
 Filtrage et structuration des données
 Vous allez maintenant filtrer vos données pour vous assurer qu'elles correspondent aux critères fixés dans les consignes et les structures en 3 dataframes distincts décrits ci dessous.
 
@@ -58,7 +58,7 @@ une photo
 
 Afficher dans les cellules ci dessous les informations concernant les dataframes
 
-Question 3 
+#Question 3 
 Nettoyage des données
 Realisez des opérations de nettoyage des données afin de rendre vos data sets le plus facilement exploitables. Vous réaliserez a minima les traitements suivants:
 
@@ -66,7 +66,7 @@ convertir les différents types de données rencontrées dans un format adapté 
 vérification et/ou traitement des valeurs manquantes, des doublons (par exemple des noms identiques, ou écrits avec des orthographes différentes)
 vérification et traitement des outliers
 
-Question 4 
+#Question 4 
 Agrégation et structuration des données
 Vos données étant nettoyées, vous allez maintenant les structurez et les stocker dans un conteneur de données au format HDF5. Vous êtes libre d'architecturer votre conteneur comme vous le souhaitez créerez a minima deux groupes:
 
@@ -74,7 +74,7 @@ un groupe contenant les images que vous allez acquérir
 un groupe pour chaque dataset
 Affichez à minima, des informations concernant chaque groupe ainsi que les data sets qu'ils contient
 
-Question 5 
+#Question 5 
 Exploitation de vos données
 A partir de votre conteneur de données HDF5 vous allez extraire, filtrer et agréger vos données pour répondre aux questions suivantes:
 
